@@ -1,0 +1,111 @@
+<html>
+	<head><title>Comando git</title>
+		<link rel = "stylesheet" type = "text/css" href = "git.css" />
+	</head>
+	<body>
+
+		<p><center><b>Qué es git?</b></center></p>
+		<p>Git es un sistema de control de versiones distribuido de código abierto, el control de versiones distribuido permite a los desarrolladores descargar un software, realizar cambios y 
+			subir la versión que han modificado. Todas las modificaciones subidas se guardan en versiones independientes, no sobrescribiendo en el archivo original. </p>
+
+			<p><b>Comandos de Git</b></p>
+			<ol>
+				<li>
+					<a href="#Init">Init</a>
+				</li>
+				<li>
+					<a href="#Status">Status</a>
+			   </li>
+			   <li>
+				    <a href="#Branch">Branch</a>
+		  	   </li>
+       				<li>
+					<a href="#Checkout">Checkout</a>
+				</li>
+				<li>
+					<a href="#Remote">Remote</a>
+				</li>
+				<li>
+					<a href="#Pull">Pull</a>
+				</li>
+				<li>
+					<a href="#Push">Push</a>
+				</li>
+				<li>
+					<a href="#Clone">Clone</a>
+				</li>
+				<li>
+					<a href="#Commit">Commit</a>
+				</li>
+			</ol>
+		<!--<p id = "Init"> </p>>-->	
+				<br><br><p id = "Init"><h1><b>Init</b></h1></p>
+				<p> El comando git init crea un nuevo repositorio de Git. Puede utilizarse para convertir un proyecto existente y sin versión en un repositorio de Git, 
+					o para inicializar un nuevo repositorio vacío.</p>
+					<p><b>Ejemplo Init</b></p>
+					<img src ="https://itknowledgeexchange.techtarget.com/coffee-talk/files/2020/07/git-init-bare-repo.png">
+
+
+					<br><br><br><br><h1><p id = "Status"><b>Status</b></h1></p>
+					<p>El comando git status muestra el estado del directorio de trabajo y del área del entorno de ensayo. Permite ver los cambios que se han preparado,
+						 los que no y los archivos en los que Git no va a realizar el seguimiento</p>
+						 <p><b>Ejemplo Status</b></p>
+						 <img src = "https://www.toolsqa.com/gallery/Git/1.Git%20Status%20Command%20in%20Git.png">
+
+						 <br><br><br><br><h1><p id = "Branch"><b>Branch</b></h1></p>
+					<p>El comando git branch permite crear una rama nueva. Si quieres empezar a trabajar en una nueva función, puedes crear una rama nueva a partir de la rama main con git branch new_branch. Una vez creada, puedes usar git checkout new_branch para cambiar a esa rama. Además, el comando git checkout acepta el argumento -b, que actúa como un práctico método que creará la nueva rama y cambiará a ella al instante. Puedes trabajar 
+					   en varias funciones en un solo repositorio alternando de una a otra con git checkout.</p>
+						 <p><b>Ejemplo Branch</b></p>
+						 <img src = "https://luissoto.website/wp-content/uploads/2021/04/git-branch.jpg.webp">
+
+
+						 <br><br><br><br><h1><p id = "Checkout"><b>Checkout</b></h1></p>
+					<p>El comando git checkout te permite desplazarte entre las ramas creadas por git branch. Al extraer una rama, se actualizan los archivos en el directorio de trabajo para reflejar la versión almacenada en esa rama y se indica a Git que registre todas las confirmaciones nuevas en dicha rama. Puedes contemplar 
+					   todo esto como una forma de seleccionar la línea de desarrollo en la que trabajas</p>
+						 <p><b>Ejemplo Ckeckout</b></p>
+						 <img src = "https://luissoto.website/wp-content/uploads/2021/04/gitcheckout.jpg.webp">
+
+
+						 <br><br><br><br><h1><p id = "Remote"><b>Remote</b></h1></p>
+					<p>El comando remoto git le permite crear, ver y eliminar conexiones a otros repositorios. 
+						Las conexiones remotas son más como marcadores que como enlaces directos a otros repositorios. En lugar de proporcionar acceso en tiempo real a otro repositorio, sirven como nombres convenientes que se pueden usar para hacer referencia a una URL no tan conveniente.
+						Por ejemplo, el siguiente diagrama muestra dos conexiones remotas desde su
+					    repositorio al repositorio central y al repositorio de otro desarrollador. En 
+						lugar de hacer referencia a ellos por sus URL completas, puede pasar los accesos
+					   directos de origin y john a otros comandos de Git.</p>
+						 <p><b>Ejemplo Remote</b></p>
+						 <img src = "https://www.jquery-az.com/wp-content/uploads/2018/07/7.0_2-Git-remote-add.png">
+
+
+						 <br><br><br><br><h1><p id = "Pull"><b>Pull</b></h1></p>
+					<p>El comando git pull se usa para obtener y descargar contenido de un repositorio remoto y actualizar
+						 inmediatamente el repositorio local para que coincida con ese contenido. La fusión de cambios ascendentes
+						 remotos en su repositorio local es una tarea común en los flujos de trabajo de colaboración basados en Git.</p>
+						 <p><b>Ejemplo Pull</b></p>
+						 <img src = "https://miro.medium.com/v2/resize:fit:640/format:webp/1*GT4X9mQhr-KedzYiE_gqTg.png">
+
+
+						 <br><br><br><br><h1><p id = "Push"><b>Push</b></h1></p>
+					<p>El comando git push se usa para cargar contenido del repositorio local a un repositorio remoto. El envío es la forma de transferir
+						 confirmaciones desde tu repositorio local a un repositorio remoto.</p>
+						 <p><b>Ejemplo Push</b></p>
+						 <img src = "https://www.jquery-az.com/wp-content/uploads/2018/07/10.0_3-Git-pull-remote.png">
+
+
+						 <br><br><br><br><h1><p id = "Clone"><b>Clone</b></h1></p>
+				    <p>git clone se utiliza principalmente para apuntar a un repositorio existente y clonar o copiar dicho repositorio en un nuevo directorio, en otra ubicación.
+					   El repositorio original se puede localizar en el sistema de archivos local o en los protocolos admitidos a los que se puede acceder por máquina remota.</p>
+						 <p><b>Ejemplo Clone</b></p>
+						 <img src = "https://desarrolloweb.com/archivoimg/general/4495.png">
+
+						 <br><br><br><br><h1><p id = "Commit"><b>Commit</b></h1></p>
+				    <p>El comando git commit captura una instantánea de los cambios preparados en ese momento del proyecto. Las instantáneas confirmadas pueden considerarse como versiones 
+						"seguras" de un proyecto: Git no las cambiará nunca a no ser que se lo pidas expresamente.</p>
+						 <p><b>Ejemplo Commit</b></p>
+						 <img src = "https://2.bp.blogspot.com/-5NGA8TNtgZY/WVFPh-0LC8I/AAAAAAAACp4/kHAt6oftRRASJRJeyOI5lZy75v6UH0wDgCLcBGAs/s1600/00.jpg">
+	</body>
+	</html>
+
+
+
+	
